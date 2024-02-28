@@ -122,3 +122,28 @@ section.content {
         }
     }
 }
+
+
+
+
+
+
+@media (max-width:767px) {
+    .body {
+        padding: 10px 20px;
+    }
+    header {
+        padding: 20px 10px;
+        flex-direction: column;
+        gap: 15px;
+    }
+    section.content
+    .boxes {
+        padding: 10px;
+    } 
+    section.content
+    .boxes .box{
+        align-items: center;
+        gap: 20px;
+    }
+}
